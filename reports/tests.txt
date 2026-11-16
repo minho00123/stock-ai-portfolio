@@ -1,0 +1,32 @@
+test_deterministic_and_expected_findings (test_demo.DemoTests) ... ok
+test_full_demo_with_network_blocked_and_no_file_mutation (test_demo.DemoTests) ... ok
+test_aggregate_keeps_missing_pnl_visible (test_evaluation.EvaluationTests) ... ok
+test_invalid_summary_rejected (test_evaluation.EvaluationTests) ... ok
+test_kr_summary_arithmetic (test_evaluation.EvaluationTests) ... ok
+test_us_summary_arithmetic (test_evaluation.EvaluationTests) ... ok
+test_cancelled_record_with_holding_and_pending_flagged (test_reconciliation.ReconciliationTests) ... ok
+test_consistent_and_empty_snapshots (test_reconciliation.ReconciliationTests) ... ok
+test_markets_are_separate (test_reconciliation.ReconciliationTests) ... ok
+test_missing_holding_is_review_not_automatic_mutation (test_reconciliation.ReconciliationTests) ... ok
+test_pending_is_not_assumed_cancelled (test_reconciliation.ReconciliationTests) ... ok
+test_reproduces_weekend_cancellation_defect (test_reconciliation.ReconciliationTests) ... ok
+test_same_day_and_held_not_cancelled (test_reconciliation.ReconciliationTests) ... ok
+test_bonus_is_not_a_probability (test_signals.SignalTests) ... ok
+test_boost_inclusive_threshold (test_signals.SignalTests) ... ok
+test_empty_or_single_news_neutral (test_signals.SignalTests) ... ok
+test_low_importance_does_not_veto (test_signals.SignalTests) ... ok
+test_ranking_filters_veto_and_applies_bonus (test_signals.SignalTests) ... ok
+test_rejects_bad_llm_scores_and_naive_timestamp (test_signals.SignalTests) ... ok
+test_rejects_invalid_predictions (test_signals.SignalTests) ... ok
+test_single_major_event_can_require_review_without_veto (test_signals.SignalTests) ... ok
+test_sustained_threshold (test_signals.SignalTests) ... ok
+test_timezone_offsets_represent_same_instant (test_signals.SignalTests) ... ok
+test_veto_inclusive_threshold (test_signals.SignalTests) ... ok
+test_weighted_not_simple_average (test_signals.SignalTests) ... ok
+test_window_market_symbol_and_future_exclusion (test_signals.SignalTests) ... ok
+test_zero_weight_is_neutral (test_signals.SignalTests) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.011s
+
+OK

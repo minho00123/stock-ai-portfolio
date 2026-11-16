@@ -1,0 +1,9 @@
+[project]
+name = "stock-ai-portfolio"
+version = "0.1.0"
+description = "Offline reconstruction of a paper-trading system and its operational review"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.ruff]
+line-length = 110

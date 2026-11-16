@@ -1,0 +1,125 @@
+{
+  "mode": "offline_synthetic_review_only",
+  "orders_supported": false,
+  "model_inference_performed": false,
+  "signals": [
+    {
+      "market": "US",
+      "symbol": "DEMO_US_NEG",
+      "model_score": 0.61,
+      "n_news": 2,
+      "weighted_sentiment": -5.57,
+      "max_importance": 8,
+      "decision": "veto"
+    },
+    {
+      "market": "US",
+      "symbol": "DEMO_US_POS",
+      "model_score": 0.58,
+      "n_news": 2,
+      "weighted_sentiment": 5.57,
+      "max_importance": 8,
+      "decision": "boost"
+    },
+    {
+      "market": "US",
+      "symbol": "DEMO_US_NONE",
+      "model_score": 0.6,
+      "n_news": 0,
+      "weighted_sentiment": 0,
+      "max_importance": 0,
+      "decision": "neutral"
+    },
+    {
+      "market": "KR",
+      "symbol": "DEMO_KR_SINGLE",
+      "model_score": 0.54,
+      "n_news": 1,
+      "weighted_sentiment": 0,
+      "max_importance": 0,
+      "decision": "neutral"
+    }
+  ],
+  "candidate_ranking": [
+    {
+      "market": "KR",
+      "symbol": "DEMO_KR_SINGLE",
+      "model_score": 0.54,
+      "ranking_score": 0.54,
+      "news_decision": "neutral"
+    },
+    {
+      "market": "US",
+      "symbol": "DEMO_US_POS",
+      "model_score": 0.58,
+      "ranking_score": 0.63,
+      "news_decision": "boost"
+    },
+    {
+      "market": "US",
+      "symbol": "DEMO_US_NONE",
+      "model_score": 0.6,
+      "ranking_score": 0.6,
+      "news_decision": "neutral"
+    }
+  ],
+  "emergency_reviews": [
+    {
+      "market": "US",
+      "symbol": "DEMO_US_ORPHAN",
+      "review_required": false,
+      "reason": "none",
+      "n_news": 0
+    },
+    {
+      "market": "KR",
+      "symbol": "DEMO_KR_SINGLE",
+      "review_required": true,
+      "reason": "single_major_event",
+      "n_news": 1
+    }
+  ],
+  "legacy_friday_to_saturday_cancellation": true,
+  "snapshot_findings": [
+    {
+      "market": "US",
+      "symbol": "DEMO_US_ORPHAN",
+      "issue": "untracked_holding"
+    },
+    {
+      "market": "US",
+      "symbol": "DEMO_US_ORPHAN",
+      "issue": "pending_order_without_active_record"
+    },
+    {
+      "market": "US",
+      "symbol": "DEMO_US_WAIT",
+      "issue": "awaiting_fill"
+    },
+    {
+      "market": "US",
+      "symbol": "DEMO_US_MISSING",
+      "issue": "missing_holding_requires_review"
+    }
+  ],
+  "documented_summary_arithmetic": {
+    "US": {
+      "standard_error_pp": 1.8582,
+      "t_statistic": 0.9202,
+      "normal_approx_interval_95_pp": [
+        -1.9322,
+        5.3522
+      ],
+      "interval_includes_zero": true
+    },
+    "KR": {
+      "standard_error_pp": 3.661,
+      "t_statistic": 0.2267,
+      "normal_approx_interval_95_pp": [
+        -6.3456,
+        8.0056
+      ],
+      "interval_includes_zero": true
+    }
+  }
+}

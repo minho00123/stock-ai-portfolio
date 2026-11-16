@@ -1,0 +1,106 @@
+{
+  "data_kind": "sanitized aggregate summaries of paper operation; no row-level account or order data",
+  "audit_date": "2026-11-16",
+  "documented_period": [
+    "2026-06-01",
+    "2026-08-07"
+  ],
+  "walkforward_documented": {
+    "US": {
+      "mean_pp": 1.71,
+      "sd_pp": 6.7,
+      "n": 13
+    },
+    "KR": {
+      "mean_pp": 0.83,
+      "sd_pp": 13.2,
+      "n": 13
+    }
+  },
+  "walkforward_provenance": "FINAL_REVIEW_2026-08-07.md section 3; historical result NOT rerun; sample independence unverified",
+  "paper_performance_documented": {
+    "US": {
+      "total_return_pct": 0.33,
+      "realized_pnl_over_initial_pct": -2.21,
+      "spy_return_pct": 1.73,
+      "reported_realized_minus_spy_pp": -3.94,
+      "total_return_minus_spy_pp": -1.4
+    },
+    "KR": {
+      "total_return_pct": -4.83,
+      "realized_pnl_over_initial_pct": -7.21,
+      "benchmark_return_pct": null
+    }
+  },
+  "paper_performance_provenance": "FINAL_REVIEW section 2 only; no fresh broker query; realized PnL ratio and total benchmark return have different bases",
+  "local_db_aggregates": {
+    "US": {
+      "source": "trades.db",
+      "pnl_unit": "USD",
+      "groups": [
+        {
+          "status": "cancelled",
+          "rows": 7,
+          "pnl_present": 0,
+          "pnl_sum": null
+        },
+        {
+          "status": "closed",
+          "rows": 51,
+          "pnl_present": 51,
+          "pnl_sum": -195.06
+        },
+        {
+          "status": "emergency_close",
+          "rows": 8,
+          "pnl_present": 8,
+          "pnl_sum": -1315.14
+        },
+        {
+          "status": "open",
+          "rows": 6,
+          "pnl_present": 0,
+          "pnl_sum": null
+        }
+      ]
+    },
+    "KR": {
+      "source": "trades_kr.db",
+      "pnl_unit": "KRW",
+      "groups": [
+        {
+          "status": "cancelled",
+          "rows": 13,
+          "pnl_present": 0,
+          "pnl_sum": null
+        },
+        {
+          "status": "closed",
+          "rows": 3,
+          "pnl_present": 2,
+          "pnl_sum": -513122.0
+        },
+        {
+          "status": "emergency_close",
+          "rows": 9,
+          "pnl_present": 9,
+          "pnl_sum": -2649000.0
+        },
+        {
+          "status": "open",
+          "rows": 6,
+          "pnl_present": 0,
+          "pnl_sum": null
+        }
+      ]
+    }
+  },
+  "news_db_aggregate": {
+    "news_rows": 15238,
+    "analyzed_rows": 15237,
+    "model_counts": {
+      "claude-haiku-4-5": 12788,
+      "claude-sonnet-4-6": 2449
+    }
+  }
+}

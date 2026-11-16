@@ -1,0 +1,191 @@
+[
+  {
+    "source_file": "build_features.py",
+    "start_line": 42,
+    "end_line": 55,
+    "excerpt_sha256": "f99bde113f252a62c6a78e4e87022923170e6cfdda6ac83c5901fc7684fe3f30",
+    "source_sha256": "d548d5f0b358dbcb5d89bc5be1ef3806128a586e170f794b582d0fe1a813462d"
+  },
+  {
+    "source_file": "build_features.py",
+    "start_line": 58,
+    "end_line": 139,
+    "excerpt_sha256": "7cecb7c9128aafc27f4cc9b802404690f336b18c37c6494170e8e137ed96ab39",
+    "source_sha256": "d548d5f0b358dbcb5d89bc5be1ef3806128a586e170f794b582d0fe1a813462d"
+  },
+  {
+    "source_file": "train_model.py",
+    "start_line": 62,
+    "end_line": 104,
+    "excerpt_sha256": "8aee4882753d17afb1bb1a20616489a22b49fced1386ed5730366759156122ab",
+    "source_sha256": "dbf4693c78aea45f254ada43dc47a15b02c49d8194c88735bd2595ee3ee14fb0"
+  },
+  {
+    "source_file": "feature_selection.py",
+    "start_line": 91,
+    "end_line": 129,
+    "excerpt_sha256": "a3dce38a6b1bcae82e9e3e0678d5ab4837995eb542f5bc690abd4ba922ff6172",
+    "source_sha256": "0c2fe2f1155aa4b4f3ea13d1d3ff775321c8fef0e9fb3f7491d284b6380fda33"
+  },
+  {
+    "source_file": "walkforward.py",
+    "start_line": 48,
+    "end_line": 125,
+    "excerpt_sha256": "5b2f8cecc22e93b6d8652d27dbf6138f9246888e41ac1d2ab365f78a4ab76851",
+    "source_sha256": "90c0ef54462b30efeb54a90cf416158f9c0397a9f3a59b7a78f1709a690a4951"
+  },
+  {
+    "source_file": "backtest.py",
+    "start_line": 12,
+    "end_line": 24,
+    "excerpt_sha256": "b47ffbcbdaf981edea915917b908cbb1c0a725e74001a1ba3f41cc9ecae5ad73",
+    "source_sha256": "c5eede3954f8f5285d14d25b904f80937fb960fdcc5958846a5ee49d0d1e235c"
+  },
+  {
+    "source_file": "backtest.py",
+    "start_line": 65,
+    "end_line": 108,
+    "excerpt_sha256": "648e0a40e829c7693ac140283ee574616b92164b541b6a53fd9862e233e543a8",
+    "source_sha256": "c5eede3954f8f5285d14d25b904f80937fb960fdcc5958846a5ee49d0d1e235c"
+  },
+  {
+    "source_file": "backtest_kr.py",
+    "start_line": 14,
+    "end_line": 24,
+    "excerpt_sha256": "32655f25e0b745005e47fa0a62b3700f88072a8dc271996db718c35811fcc2ac",
+    "source_sha256": "6088a5080d591938156bcd16130e3962f572550fc98964eb1074596e4a2a1c49"
+  },
+  {
+    "source_file": "news_collector.py",
+    "start_line": 69,
+    "end_line": 70,
+    "excerpt_sha256": "d9682209f6f4403b1ceec22eba91072944202a5ea91ecac74a72dd388477b915",
+    "source_sha256": "6f1473f90c7a59c25d8590292b2a40c69fb1720ce7f7de3a71323224ace62cae"
+  },
+  {
+    "source_file": "news_collector.py",
+    "start_line": 162,
+    "end_line": 180,
+    "excerpt_sha256": "49605d0fabd2a1a69a73b5afc911f885146ea1a54dc33db32aff2f8a2c0cfe8d",
+    "source_sha256": "6f1473f90c7a59c25d8590292b2a40c69fb1720ce7f7de3a71323224ace62cae"
+  },
+  {
+    "source_file": "llm_analyzer.py",
+    "start_line": 23,
+    "end_line": 34,
+    "excerpt_sha256": "b8ff964ecd1deb6626a0c8a29bb6fd007819c605d3a2a0c2caacf11fc5740923",
+    "source_sha256": "6e3e400da914197176672fa4ba746d7ffd969969b10248293271fbe5f2117c3d"
+  },
+  {
+    "source_file": "llm_analyzer.py",
+    "start_line": 57,
+    "end_line": 68,
+    "excerpt_sha256": "9081a67a5e176168f153d06401ab8b6faebff769c39fe8831370cd6c3a0d4623",
+    "source_sha256": "6e3e400da914197176672fa4ba746d7ffd969969b10248293271fbe5f2117c3d"
+  },
+  {
+    "source_file": "llm_analyzer.py",
+    "start_line": 71,
+    "end_line": 102,
+    "excerpt_sha256": "32ba722dd82bb7d9433feb43295337f158a11cb3f947710ac97e2084cb2d3076",
+    "source_sha256": "6e3e400da914197176672fa4ba746d7ffd969969b10248293271fbe5f2117c3d"
+  },
+  {
+    "source_file": "llm_signals.py",
+    "start_line": 26,
+    "end_line": 93,
+    "excerpt_sha256": "4ab758ab3f322676e7b00294a401c557e431e2f02dd55077fccb29a02f9465a1",
+    "source_sha256": "59aabf354c2b8e77f4b709168fe3558c2e1219f7e332f1aeadb63973a1edaed5"
+  },
+  {
+    "source_file": "llm_signals.py",
+    "start_line": 108,
+    "end_line": 139,
+    "excerpt_sha256": "b616806e96debc1bdac0f9ec253597da119af85ca70862089639b125d3fa793a",
+    "source_sha256": "59aabf354c2b8e77f4b709168fe3558c2e1219f7e332f1aeadb63973a1edaed5"
+  },
+  {
+    "source_file": "emergency_exit.py",
+    "start_line": 45,
+    "end_line": 78,
+    "excerpt_sha256": "9d81d885a4320d3918f6e5763854d22cb4805c16dfe702f07381c6983010f349",
+    "source_sha256": "ad75916252676422852893db0dc22de0aa1dcc4ac7ba4e4bffd3ead3a04448b1"
+  },
+  {
+    "source_file": "kis_api.py",
+    "start_line": 31,
+    "end_line": 41,
+    "excerpt_sha256": "0db7f142ba3fd38661fd7bd7b2112b1e8b6cb5f40a3e919d383bf6653ee2b9aa",
+    "source_sha256": "ad4fb2a483c169f4a0aa6912becdfe0b9e67c8ceddc32cd146e6d8866f9f76e8"
+  },
+  {
+    "source_file": "kis_api.py",
+    "start_line": 86,
+    "end_line": 103,
+    "excerpt_sha256": "9cd48beabb949d8a1e77b2ac1d706b4e86a6ba846b09cfa69eb1a3d147970dab",
+    "source_sha256": "ad4fb2a483c169f4a0aa6912becdfe0b9e67c8ceddc32cd146e6d8866f9f76e8"
+  },
+  {
+    "source_file": "kis_api.py",
+    "start_line": 170,
+    "end_line": 191,
+    "excerpt_sha256": "2cc93a195f2a589ebb183a6ecd39d3a0f7c1c3d9994313a12559365a79bd9b89",
+    "source_sha256": "ad4fb2a483c169f4a0aa6912becdfe0b9e67c8ceddc32cd146e6d8866f9f76e8"
+  },
+  {
+    "source_file": "daily_trader.py",
+    "start_line": 178,
+    "end_line": 242,
+    "excerpt_sha256": "0f941194f2758e3815d252f4ffd6c66c0c6e28430a735818e0cc1674aa4e52bc",
+    "source_sha256": "2851141016ccfe8f6ff36ed60974bf578c75f6e6fdffd2ab989f4a52ec1c434a"
+  },
+  {
+    "source_file": "daily_trader.py",
+    "start_line": 394,
+    "end_line": 410,
+    "excerpt_sha256": "9599cf6a97753f32870ff1c51ab5ba04720ed9eebc1a4dbd24c8248f85c3a2bd",
+    "source_sha256": "2851141016ccfe8f6ff36ed60974bf578c75f6e6fdffd2ab989f4a52ec1c434a"
+  },
+  {
+    "source_file": "daily_trader.py",
+    "start_line": 351,
+    "end_line": 371,
+    "excerpt_sha256": "0e03ddfd97331ce93ebfb06f5e5771adb6d9c21d4d2167b6c309d0d0f258891e",
+    "source_sha256": "2851141016ccfe8f6ff36ed60974bf578c75f6e6fdffd2ab989f4a52ec1c434a"
+  },
+  {
+    "source_file": "daily_trader_kr.py",
+    "start_line": 215,
+    "end_line": 256,
+    "excerpt_sha256": "7900e9057329a8c0fe0699ba7fd1e47f46ab4f604111714925eb352803ec18e9",
+    "source_sha256": "afd0b4b8ab83656ce03b4db50c27fb48e01c47554440686baab4c4c40b77080f"
+  },
+  {
+    "source_file": "daily_trader_kr.py",
+    "start_line": 299,
+    "end_line": 306,
+    "excerpt_sha256": "eb9516f58415f7541b89ae3743ecd720184f36525a35df4b1476d30739fd23a8",
+    "source_sha256": "afd0b4b8ab83656ce03b4db50c27fb48e01c47554440686baab4c4c40b77080f"
+  },
+  {
+    "source_file": "run_morning.sh",
+    "start_line": 1,
+    "end_line": 49,
+    "excerpt_sha256": "7f6cdb3cbec7b37cd8f6389b731ddf5bfccd27cb93b561b0430586fc616e743e",
+    "source_sha256": "7f6cdb3cbec7b37cd8f6389b731ddf5bfccd27cb93b561b0430586fc616e743e"
+  },
+  {
+    "source_file": "run_kr_trading.sh",
+    "start_line": 1,
+    "end_line": 11,
+    "excerpt_sha256": "663d572642a956b3afeaf6dc8c92ffa33060e4a18c1761ee75d7eec4a15be2d3",
+    "source_sha256": "110d6aafd25cfee1023bc61ebcc1fdc21f979030b6fee7f4fdce912107352cf1"
+  },
+  {
+    "source_file": "run_intraday.sh",
+    "start_line": 1,
+    "end_line": 7,
+    "excerpt_sha256": "4f8c4f4773b5e19569ed06b5b6b31fae4f72cfd5b47eeb4db17cf902cdb48cde",
+    "source_sha256": "4976170a743503e6021dab12ec0d020501803295510c0a7890cc1b6f88b3ae13"
+  }
+]

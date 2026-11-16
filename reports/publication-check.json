@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "files_scanned": 34,
+  "source_excerpts_checked": 27,
+  "findings": [],
+  "limits": "Heuristic patterns, runtime import allowlist and local links only; manual review still required."
+}

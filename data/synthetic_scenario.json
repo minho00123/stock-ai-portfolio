@@ -1,0 +1,107 @@
+{
+  "data_kind": "synthetic; no actual news, market prices, holdings or orders",
+  "as_of": "2026-07-18T12:00:00Z",
+  "news": [
+    {
+      "market": "US",
+      "symbol": "DEMO_US_NEG",
+      "published_at": "2026-07-18T09:00:00Z",
+      "sentiment": -6,
+      "importance": 8
+    },
+    {
+      "market": "US",
+      "symbol": "DEMO_US_NEG",
+      "published_at": "2026-07-18T09:00:00Z",
+      "sentiment": -5,
+      "importance": 6
+    },
+    {
+      "market": "US",
+      "symbol": "DEMO_US_POS",
+      "published_at": "2026-07-18T09:00:00Z",
+      "sentiment": 6,
+      "importance": 8
+    },
+    {
+      "market": "US",
+      "symbol": "DEMO_US_POS",
+      "published_at": "2026-07-18T09:00:00Z",
+      "sentiment": 5,
+      "importance": 6
+    },
+    {
+      "market": "KR",
+      "symbol": "DEMO_KR_SINGLE",
+      "published_at": "2026-07-18T09:00:00Z",
+      "sentiment": -7,
+      "importance": 8
+    }
+  ],
+  "predictions": [
+    {
+      "market": "US",
+      "symbol": "DEMO_US_NEG",
+      "model_score": 0.61
+    },
+    {
+      "market": "US",
+      "symbol": "DEMO_US_POS",
+      "model_score": 0.58
+    },
+    {
+      "market": "US",
+      "symbol": "DEMO_US_NONE",
+      "model_score": 0.6
+    },
+    {
+      "market": "KR",
+      "symbol": "DEMO_KR_SINGLE",
+      "model_score": 0.54
+    }
+  ],
+  "positions": [
+    {
+      "market": "US",
+      "symbol": "DEMO_US_ORPHAN",
+      "status": "cancelled"
+    },
+    {
+      "market": "US",
+      "symbol": "DEMO_US_WAIT",
+      "status": "open"
+    },
+    {
+      "market": "US",
+      "symbol": "DEMO_US_MISSING",
+      "status": "open"
+    },
+    {
+      "market": "KR",
+      "symbol": "DEMO_KR_SINGLE",
+      "status": "open"
+    }
+  ],
+  "held": [
+    {
+      "market": "US",
+      "symbol": "DEMO_US_ORPHAN"
+    },
+    {
+      "market": "KR",
+      "symbol": "DEMO_KR_SINGLE"
+    }
+  ],
+  "orders": [
+    {
+      "market": "US",
+      "symbol": "DEMO_US_WAIT",
+      "status": "new"
+    },
+    {
+      "market": "US",
+      "symbol": "DEMO_US_ORPHAN",
+      "status": "accepted"
+    }
+  ]
+}
